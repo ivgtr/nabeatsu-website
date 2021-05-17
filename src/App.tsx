@@ -23,14 +23,22 @@ export const App = () => {
     })
   }
 
+  // const sleep = (wait: number) => {
+  //   return new Promise((resolve) => {
+  //     setTimeout(() => {
+  //       resolve(true)
+  //     }, wait * 1000)
+  //   })
+  // }
+
   const submit = () => {
     if (inputRef.current?.value) {
       if (checked) {
         ;(async () => {
           for (let i = 0; i <= Number(inputRef.current?.value); i++) {
             const text = nabeatsu(i)
-            setText(text)
-            await speak(text)
+            setText(text || '0')
+            await speak(text || '0')
           }
         })()
       } else {
