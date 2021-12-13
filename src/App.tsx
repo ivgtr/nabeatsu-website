@@ -42,7 +42,7 @@ export const App = () => {
           }
         })()
       } else {
-        const text = nabeatsu(Number(inputRef.current?.value))
+        const text = nabeatsu(String(inputRef.current?.value))
         setText(text)
         speak(text)
       }
