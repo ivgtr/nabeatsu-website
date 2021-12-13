@@ -16,7 +16,7 @@ export const App = () => {
   const speak = (text: string) => {
     return new Promise((resolve, _reject) => {
       speechSynthesis.cancel()
-      const options = new SpeechSynthesisUtterance(text)
+      const options = new SpeechSynthesisUtterance(text.replace(/w/g, 'ﾜﾗ'))
       options.lang = 'ja-JP'
       options.onend = options.onerror = () => resolve(speechSynthesis.cancel())
       speechSynthesis.speak(options)
