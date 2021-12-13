@@ -10,26 +10,31 @@
     "deoloy": "gh-pages -d dist"
   },
   "devDependencies": {
-    "@types/node": "^15.3.0",
-    "@types/react": "^17.0.5",
-    "@types/react-dom": "^17.0.5",
-    "@vitejs/plugin-react-refresh": "^1.3.3",
-    "eslint": "^7.26.0",
-    "eslint-config-sumikko": "^1.1.2",
-    "prettier": "^2.3.0",
+    "@types/node": "^16.11.12",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "@vitejs/plugin-react-refresh": "^1.3.6",
+    "eslint": "^8.4.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.5.1",
     "rimraf": "^3.0.2",
-    "sass": "^1.32.13",
-    "typescript": "^4.2.4",
-    "vite": "^2.3.2",
+    "sass": "^1.45.0",
+    "typescript": "^4.5.3",
+    "vite": "^2.7.2",
     "vite-plugin-react": "^4.0.1"
   },
   "dependencies": {
-    "autoprefixer": "^10.2.5",
-    "axios": "^0.21.1",
-    "nabeatsu": "^0.1.2",
-    "postcss": "^8.2.15",
+    "autoprefixer": "^10.4.0",
+    "axios": "^0.24.0",
+    "nabeatsu": "^1.0.0",
+    "postcss": "^8.4.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "tailwindcss": "^2.1.2"
+    "tailwindcss": "^3.0.1"
   }
 }
